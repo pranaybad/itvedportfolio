@@ -1,0 +1,151 @@
+.specialtext {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: .7px;
+    -webkit-text-stroke-color: #555555;
+    font-weight: bolder;
+}
+
+.btnborder {
+    color: #fff;
+    text-align: center;
+    animation: glow 5s ease-in-out infinite alternate;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.glow {
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+.glow2 {
+    color: #fff;
+    text-align: center;
+    animation: glow2 1s ease-in-out infinite alternate;
+}
+
+
+/* accordion */
+
+.accordion {
+    background-color: #0c0c14;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.active,
+.accordion:hover {
+    background-color: #0c0c14;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #0c0c14;
+    color: white;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+@-webkit-keyframes glow2 {
+    from {
+        text-shadow: 0 0 10px #000000, 0 0 20px #1a0505, 0 0 30px #795b6a, 0 0 40px #0f090c, 0 0 50px #25121b, 0 0 60px #88576f, 0 0 70px #3b0621;
+    }
+    to {
+        text-shadow: 0 0 20px #181717, 0 0 30px #e9bcd2, 0 0 40px #e794be, 0 0 50px #7c3d5d, 0 0 60px #ffbede, 0 0 70px #110a0d, 0 0 80px #1d0913;
+    }
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+
+/* contact */
+
+.myinp input {
+    border-bottom: 1px solid #7777;
+}
+
+input {
+    border-bottom: 1px solid #7777;
+}
+
+input[type="email"]::placeholder {
+    text-align: center;
+}
+
+input[type="text"]::placeholder {
+    text-align: center;
+}
+
+
+/* menubar */
+
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav p {
+    padding: 14px 16px;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    /* background-color: #04AA6D; */
+    /* color: white; */
+    /* position: absolute; */
+}
